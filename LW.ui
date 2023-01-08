@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginW</class>
+ <widget class="QMainWindow" name="LoginW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>604</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(164, 164, 164);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="reg_btn">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>320</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(195, 195, 195);</string>
+    </property>
+    <property name="text">
+     <string>Registration</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login_btn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>320</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(195, 195, 195);</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="welcome_label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>110</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Dungeon</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 15pt &quot;Dungeon&quot;;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Welcome!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DuoPix_label">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>370</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/Duo/DUOCOOLLW.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="secret_btn">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>21</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="user_edit">
+    <property name="geometry">
+     <rect>
+      <x>231</x>
+      <y>192</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="password_label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>361</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Serif Cond</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Noto Serif Cond&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Password:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="user_label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>150</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Serif Cond</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Noto Serif Cond&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Username:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password_edit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>270</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="succ_label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>370</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Times New Roman&quot;;
+color: rgb(60, 227, 42)</string>
+    </property>
+    <property name="text">
+     <string>Successfully!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="succ2_label">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>370</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Times New Roman&quot;;
+color: rgb(60, 227, 42)</string>
+    </property>
+    <property name="text">
+     <string>Successfully!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="press_label">
+    <property name="geometry">
+     <rect>
+      <x>465</x>
+      <y>400</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Times New Roman&quot;;
+color: rgb(60, 227, 42)</string>
+    </property>
+    <property name="text">
+     <string>Press &quot;Login&quot; button</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
